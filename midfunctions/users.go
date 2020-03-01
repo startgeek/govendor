@@ -1,10 +1,10 @@
 package midfunctions
 
 import (
-	"./utils"
-	"./databases"
-	"./common"
-	"./models"
+	"../utils"
+	"../databases"
+	"../common"
+	"../models"
 )
 
 //User manages functions related to user object

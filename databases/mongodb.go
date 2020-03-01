@@ -8,8 +8,8 @@
  import (
 	 "time"
  
-	 "./common"
-	 "./models"
+	 "../common"
+	 "../models"
 	 log "github.com/sirupsen/logrus"
 	 mgo "gopkg.in/mgo.v2"
 	 "gopkg.in/mgo.v2/bson"

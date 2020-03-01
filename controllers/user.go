@@ -2,10 +2,10 @@ package controllers
 
 
 import (
-	"./utils"
-	"./midfunctions"
-	"./models"
-	"./common"
+	"../utils"
+	"../midfunctions"
+	"../models"
+	"../common"
 
 	"net/http"
 

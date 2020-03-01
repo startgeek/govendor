@@ -3,7 +3,7 @@ package models
 import (
 	"errors"
 
-	"./common"
+	"../common"
 	"gopkg.in/mgo.v2/bson"
 )
 
