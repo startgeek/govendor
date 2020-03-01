@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"../common"
 	jwt_lib "github.com/dgrijalva/jwt-go"
+	"gitlab.com/tiktok-server/common"
 	"gopkg.in/mgo.v2/bson"
 )
 
@@ -13,7 +13,6 @@ type SdtClaims struct {
 	Name string `json:"name"`
 	Role string `json:"role"`
 	jwt_lib.StandardClaims
-
 }
 
 type Utils struct {

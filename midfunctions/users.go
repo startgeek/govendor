@@ -1,14 +1,15 @@
 package midfunctions
 
 import (
-	"../utils"
-	"../databases"
-	"../common"
-	"../models"
+	"gitlab.com/tiktok-server/common"
+	"gitlab.com/tiktok-server/databases"
+	"gitlab.com/tiktok-server/models"
+	"gitlab.com/tiktok-server/utils"
+	
 )
 
 //User manages functions related to user object
-type User struct{
+type User struct {
 	utils *utils.Utils
 }
 
@@ -20,7 +21,7 @@ func (u *User) Insert(user models.User) (err error) {
 
 	collection := sessionCopy.DB(databases.Database.Databasename).C(common.ColUsers)
 
-	err  = collection.Insert(&user)
-	return 
-	
+	err = collection.Insert(&user)
+	return
+
 }
