@@ -3,9 +3,9 @@ package main
 import (
 	"io"
 	"os"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/common"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/databases"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/controllers"
+	"./common"
+	"./databases"
+	"./controllers"
 
 	"github.com/gin-gonic/gin"
 )

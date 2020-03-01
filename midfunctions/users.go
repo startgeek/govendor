@@ -1,10 +1,10 @@
 package midfunctions
 
 import (
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/utils"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/databases"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/common"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/models"
+	"./utils"
+	"./databases"
+	"./common"
+	"./models"
 )
 
 //User manages functions related to user object

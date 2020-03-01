@@ -3,7 +3,7 @@ package models
 import (
 	"errors"
 
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/common"
+	"./common"
 	"gopkg.in/mgo.v2/bson"
 )
 

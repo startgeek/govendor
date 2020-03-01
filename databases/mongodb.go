@@ -8,8 +8,8 @@
  import (
 	 "time"
  
-	 "gitlab.com/startengine/tiktok-server/src/user-microservice/common"
-	 "gitlab.com/startengine/tiktok-server/src/user-microservice/models"
+	 "./common"
+	 "./models"
 	 log "github.com/sirupsen/logrus"
 	 mgo "gopkg.in/mgo.v2"
 	 "gopkg.in/mgo.v2/bson"

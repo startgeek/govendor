@@ -2,10 +2,10 @@ package controllers
 
 
 import (
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/utils"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/midfunctions"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/models"
-	"gitlab.com/startengine/tiktok-server/src/user-microservice/common"
+	"./utils"
+	"./midfunctions"
+	"./models"
+	"./common"
 
 	"net/http"
 
